@@ -1,5 +1,8 @@
 {
-    "python.pythonPath": "C:\\Users\\u064837\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "python.pythonPath": "c:\\Users\\u064837\\advent-of-code\\.venv\\Scripts\\python.exe",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "cSpell.words": [
+        "pyplot"
+    ]
 }
