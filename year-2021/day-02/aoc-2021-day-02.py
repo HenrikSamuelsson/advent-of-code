@@ -9,9 +9,7 @@ depth = 0
 
 with open(file_and_path, 'r') as fobj:
     for line in fobj:
-        print(line.rstrip())
         input = line.split()
-        print(input)
         if input[0] == 'forward':
             position += int(input[1])
         if input[0] == 'down':
