@@ -1,5 +1,7 @@
 '''
 Solution to Advent of Code, year 2021, day 4.
+
+Incomplete but need to use the debugger to see the result of the bingo game.
 '''
 
 import os
