@@ -1,5 +1,7 @@
 '''
 Solution to Advent of Code, year 2021, day 6.
+
+Works ok for part 1 but consumes to much resources for part 2.
 '''
 import os
 
@@ -13,7 +15,7 @@ lines= input_file.readlines()
 # Read in the comma separated number of lanternfish on the first line of input.
 lanternfishes = [int(x) for x in lines[0].split(',')]
 
-SIMULATION_TIME = 256
+SIMULATION_TIME = 256   # Use 80 for part 1
 CREATION_TIME = 6
 INITIAL_CREATION_TIME = 8
 
@@ -27,9 +29,6 @@ for day in range(SIMULATION_TIME):
             lanternfishes[fish_index] -= 1
     for new_fish in range(number_of_new_lantern_fish):
         lanternfishes.append(INITIAL_CREATION_TIME)
-    #print(day)
-    #print(lanternfishes)
-    #print(len(lanternfishes))
 
 fish_count = len(lanternfishes)
 print(fish_count)
