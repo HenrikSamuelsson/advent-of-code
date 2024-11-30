@@ -5,7 +5,7 @@ file_path = path.relpath("year-2023/test-input.txt")
 
 # Open the input file and read in all the lines in it.
 with open(file_path) as input_file:
-    lines = input_file.read()
+    lines = input_file.readlines()
 
-
-print(lines)
+for line in lines:
+    print(line)
