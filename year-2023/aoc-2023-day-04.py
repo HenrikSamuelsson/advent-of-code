@@ -34,7 +34,7 @@ for line in lines:
             match_count += 1
 
     # Calculate how many points this card gives us.
-    points = 0;
+    points = 0
     if match_count > 0:
         points = 2 ** (match_count - 1)
 
